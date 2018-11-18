@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD166DE0219DBEC1000EFA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166DDF219DBEC1000EFA46 /* AppDelegate.m */; };
+		BD166DE3219DBEC1000EFA46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166DE2219DBEC1000EFA46 /* ViewController.m */; };
+		BD166DE6219DBEC1000EFA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD166DE4219DBEC1000EFA46 /* Main.storyboard */; };
+		BD166DE8219DBEC2000EFA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD166DE7219DBEC2000EFA46 /* Assets.xcassets */; };
+		BD166DEB219DBEC2000EFA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD166DE9219DBEC2000EFA46 /* LaunchScreen.storyboard */; };
+		BD166DEE219DBEC2000EFA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166DED219DBEC2000EFA46 /* main.m */; };
+		BD166DF8219DBEC3000EFA46 /* CellTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166DF7219DBEC3000EFA46 /* CellTimerTests.m */; };
+		BD166E03219DBEC3000EFA46 /* CellTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E02219DBEC3000EFA46 /* CellTimerUITests.m */; };
+		BD166E12219DBEE4000EFA46 /* CountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E11219DBEE4000EFA46 /* CountDownCell.m */; };
+		BD166E15219DBF22000EFA46 /* TableCountdownVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E14219DBF22000EFA46 /* TableCountdownVC.m */; };
+		BD166E1821A1064A000EFA46 /* BestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E1721A1064A000EFA46 /* BestViewController.m */; };
+		BD166E1B21A106FA000EFA46 /* BestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E1A21A106FA000EFA46 /* BestManager.m */; };
+		BD166E1F21A10DBB000EFA46 /* BestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E1D21A10DBB000EFA46 /* BestCell.m */; };
+		BD166E2021A10DBB000EFA46 /* BestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD166E1E21A10DBB000EFA46 /* BestCell.xib */; };
+		BD166E2321A1204D000EFA46 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD166E2221A1204D000EFA46 /* MainTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD166DF4219DBEC3000EFA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD166DD3219DBEC1000EFA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD166DDA219DBEC1000EFA46;
+			remoteInfo = CellTimer;
+		};
+		BD166DFF219DBEC3000EFA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD166DD3219DBEC1000EFA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD166DDA219DBEC1000EFA46;
+			remoteInfo = CellTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD166DDB219DBEC1000EFA46 /* CellTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD166DDE219DBEC1000EFA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD166DDF219DBEC1000EFA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD166DE1219DBEC1000EFA46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD166DE2219DBEC1000EFA46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD166DE5219DBEC1000EFA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD166DE7219DBEC2000EFA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD166DEA219DBEC2000EFA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD166DEC219DBEC2000EFA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD166DED219DBEC2000EFA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD166DF3219DBEC3000EFA46 /* CellTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD166DF7219DBEC3000EFA46 /* CellTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTimerTests.m; sourceTree = "<group>"; };
+		BD166DF9219DBEC3000EFA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD166DFE219DBEC3000EFA46 /* CellTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD166E02219DBEC3000EFA46 /* CellTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTimerUITests.m; sourceTree = "<group>"; };
+		BD166E04219DBEC3000EFA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD166E10219DBEE4000EFA46 /* CountDownCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownCell.h; sourceTree = "<group>"; };
+		BD166E11219DBEE4000EFA46 /* CountDownCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownCell.m; sourceTree = "<group>"; };
+		BD166E13219DBF22000EFA46 /* TableCountdownVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCountdownVC.h; sourceTree = "<group>"; };
+		BD166E14219DBF22000EFA46 /* TableCountdownVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCountdownVC.m; sourceTree = "<group>"; };
+		BD166E1621A1064A000EFA46 /* BestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BestViewController.h; sourceTree = "<group>"; };
+		BD166E1721A1064A000EFA46 /* BestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestViewController.m; sourceTree = "<group>"; };
+		BD166E1921A106FA000EFA46 /* BestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BestManager.h; sourceTree = "<group>"; };
+		BD166E1A21A106FA000EFA46 /* BestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestManager.m; sourceTree = "<group>"; };
+		BD166E1C21A10DBB000EFA46 /* BestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BestCell.h; sourceTree = "<group>"; };
+		BD166E1D21A10DBB000EFA46 /* BestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestCell.m; sourceTree = "<group>"; };
+		BD166E1E21A10DBB000EFA46 /* BestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestCell.xib; sourceTree = "<group>"; };
+		BD166E2121A1204D000EFA46 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		BD166E2221A1204D000EFA46 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD166DD8219DBEC1000EFA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD166DF0219DBEC3000EFA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD166DFB219DBEC3000EFA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD166DD2219DBEC1000EFA46 = {
+			isa = PBXGroup;
+			children = (
+				BD166DDD219DBEC1000EFA46 /* CellTimer */,
+				BD166DF6219DBEC3000EFA46 /* CellTimerTests */,
+				BD166E01219DBEC3000EFA46 /* CellTimerUITests */,
+				BD166DDC219DBEC1000EFA46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD166DDC219DBEC1000EFA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD166DDB219DBEC1000EFA46 /* CellTimer.app */,
+				BD166DF3219DBEC3000EFA46 /* CellTimerTests.xctest */,
+				BD166DFE219DBEC3000EFA46 /* CellTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD166DDD219DBEC1000EFA46 /* CellTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BD166DDE219DBEC1000EFA46 /* AppDelegate.h */,
+				BD166DDF219DBEC1000EFA46 /* AppDelegate.m */,
+				BD166E2121A1204D000EFA46 /* MainTableViewController.h */,
+				BD166E2221A1204D000EFA46 /* MainTableViewController.m */,
+				BD166DE1219DBEC1000EFA46 /* ViewController.h */,
+				BD166DE2219DBEC1000EFA46 /* ViewController.m */,
+				BD166E10219DBEE4000EFA46 /* CountDownCell.h */,
+				BD166E11219DBEE4000EFA46 /* CountDownCell.m */,
+				BD166E13219DBF22000EFA46 /* TableCountdownVC.h */,
+				BD166E14219DBF22000EFA46 /* TableCountdownVC.m */,
+				BD166E1621A1064A000EFA46 /* BestViewController.h */,
+				BD166E1721A1064A000EFA46 /* BestViewController.m */,
+				BD166E1921A106FA000EFA46 /* BestManager.h */,
+				BD166E1A21A106FA000EFA46 /* BestManager.m */,
+				BD166E1C21A10DBB000EFA46 /* BestCell.h */,
+				BD166E1D21A10DBB000EFA46 /* BestCell.m */,
+				BD166E1E21A10DBB000EFA46 /* BestCell.xib */,
+				BD166DE4219DBEC1000EFA46 /* Main.storyboard */,
+				BD166DE7219DBEC2000EFA46 /* Assets.xcassets */,
+				BD166DE9219DBEC2000EFA46 /* LaunchScreen.storyboard */,
+				BD166DEC219DBEC2000EFA46 /* Info.plist */,
+				BD166DED219DBEC2000EFA46 /* main.m */,
+			);
+			path = CellTimer;
+			sourceTree = "<group>";
+		};
+		BD166DF6219DBEC3000EFA46 /* CellTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD166DF7219DBEC3000EFA46 /* CellTimerTests.m */,
+				BD166DF9219DBEC3000EFA46 /* Info.plist */,
+			);
+			path = CellTimerTests;
+			sourceTree = "<group>";
+		};
+		BD166E01219DBEC3000EFA46 /* CellTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD166E02219DBEC3000EFA46 /* CellTimerUITests.m */,
+				BD166E04219DBEC3000EFA46 /* Info.plist */,
+			);
+			path = CellTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD166DDA219DBEC1000EFA46 /* CellTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD166E07219DBEC3000EFA46 /* Build configuration list for PBXNativeTarget "CellTimer" */;
+			buildPhases = (
+				BD166DD7219DBEC1000EFA46 /* Sources */,
+				BD166DD8219DBEC1000EFA46 /* Frameworks */,
+				BD166DD9219DBEC1000EFA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellTimer;
+			productName = CellTimer;
+			productReference = BD166DDB219DBEC1000EFA46 /* CellTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD166DF2219DBEC3000EFA46 /* CellTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD166E0A219DBEC3000EFA46 /* Build configuration list for PBXNativeTarget "CellTimerTests" */;
+			buildPhases = (
+				BD166DEF219DBEC3000EFA46 /* Sources */,
+				BD166DF0219DBEC3000EFA46 /* Frameworks */,
+				BD166DF1219DBEC3000EFA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD166DF5219DBEC3000EFA46 /* PBXTargetDependency */,
+			);
+			name = CellTimerTests;
+			productName = CellTimerTests;
+			productReference = BD166DF3219DBEC3000EFA46 /* CellTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD166DFD219DBEC3000EFA46 /* CellTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD166E0D219DBEC3000EFA46 /* Build configuration list for PBXNativeTarget "CellTimerUITests" */;
+			buildPhases = (
+				BD166DFA219DBEC3000EFA46 /* Sources */,
+				BD166DFB219DBEC3000EFA46 /* Frameworks */,
+				BD166DFC219DBEC3000EFA46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD166E00219DBEC3000EFA46 /* PBXTargetDependency */,
+			);
+			name = CellTimerUITests;
+			productName = CellTimerUITests;
+			productReference = BD166DFE219DBEC3000EFA46 /* CellTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD166DD3219DBEC1000EFA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "信昊";
+				TargetAttributes = {
+					BD166DDA219DBEC1000EFA46 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BD166DF2219DBEC3000EFA46 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BD166DDA219DBEC1000EFA46;
+					};
+					BD166DFD219DBEC3000EFA46 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BD166DDA219DBEC1000EFA46;
+					};
+				};
+			};
+			buildConfigurationList = BD166DD6219DBEC1000EFA46 /* Build configuration list for PBXProject "CellTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD166DD2219DBEC1000EFA46;
+			productRefGroup = BD166DDC219DBEC1000EFA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD166DDA219DBEC1000EFA46 /* CellTimer */,
+				BD166DF2219DBEC3000EFA46 /* CellTimerTests */,
+				BD166DFD219DBEC3000EFA46 /* CellTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD166DD9219DBEC1000EFA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD166DEB219DBEC2000EFA46 /* LaunchScreen.storyboard in Resources */,
+				BD166DE8219DBEC2000EFA46 /* Assets.xcassets in Resources */,
+				BD166DE6219DBEC1000EFA46 /* Main.storyboard in Resources */,
+				BD166E2021A10DBB000EFA46 /* BestCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD166DF1219DBEC3000EFA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD166DFC219DBEC3000EFA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD166DD7219DBEC1000EFA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD166DE3219DBEC1000EFA46 /* ViewController.m in Sources */,
+				BD166DEE219DBEC2000EFA46 /* main.m in Sources */,
+				BD166DE0219DBEC1000EFA46 /* AppDelegate.m in Sources */,
+				BD166E1F21A10DBB000EFA46 /* BestCell.m in Sources */,
+				BD166E1B21A106FA000EFA46 /* BestManager.m in Sources */,
+				BD166E15219DBF22000EFA46 /* TableCountdownVC.m in Sources */,
+				BD166E1821A1064A000EFA46 /* BestViewController.m in Sources */,
+				BD166E12219DBEE4000EFA46 /* CountDownCell.m in Sources */,
+				BD166E2321A1204D000EFA46 /* MainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD166DEF219DBEC3000EFA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD166DF8219DBEC3000EFA46 /* CellTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD166DFA219DBEC3000EFA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD166E03219DBEC3000EFA46 /* CellTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD166DF5219DBEC3000EFA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD166DDA219DBEC1000EFA46 /* CellTimer */;
+			targetProxy = BD166DF4219DBEC3000EFA46 /* PBXContainerItemProxy */;
+		};
+		BD166E00219DBEC3000EFA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD166DDA219DBEC1000EFA46 /* CellTimer */;
+			targetProxy = BD166DFF219DBEC3000EFA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD166DE4219DBEC1000EFA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD166DE5219DBEC1000EFA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD166DE9219DBEC2000EFA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD166DEA219DBEC2000EFA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD166E05219DBEC3000EFA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD166E06219DBEC3000EFA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD166E08219DBEC3000EFA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.CellTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD166E09219DBEC3000EFA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.CellTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD166E0B219DBEC3000EFA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.CellTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellTimer.app/CellTimer";
+			};
+			name = Debug;
+		};
+		BD166E0C219DBEC3000EFA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.CellTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellTimer.app/CellTimer";
+			};
+			name = Release;
+		};
+		BD166E0E219DBEC3000EFA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.CellTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CellTimer;
+			};
+			name = Debug;
+		};
+		BD166E0F219DBEC3000EFA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CellTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = butterflyer.CellTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CellTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD166DD6219DBEC1000EFA46 /* Build configuration list for PBXProject "CellTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD166E05219DBEC3000EFA46 /* Debug */,
+				BD166E06219DBEC3000EFA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD166E07219DBEC3000EFA46 /* Build configuration list for PBXNativeTarget "CellTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD166E08219DBEC3000EFA46 /* Debug */,
+				BD166E09219DBEC3000EFA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD166E0A219DBEC3000EFA46 /* Build configuration list for PBXNativeTarget "CellTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD166E0B219DBEC3000EFA46 /* Debug */,
+				BD166E0C219DBEC3000EFA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD166E0D219DBEC3000EFA46 /* Build configuration list for PBXNativeTarget "CellTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD166E0E219DBEC3000EFA46 /* Debug */,
+				BD166E0F219DBEC3000EFA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD166DD3219DBEC1000EFA46 /* Project object */;
+}
